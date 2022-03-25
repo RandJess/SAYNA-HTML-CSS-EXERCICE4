@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "fontToile";
+    src: url('Assets/Far-From\ Homecoming.otf');
+}
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+header{
+    background-color: #b11313;
+}
+header a{
+    text-decoration: none;
+}
+
+/* =================================================== */
+/* BLOCK */
+.b2{
+    background: #f1c530;
+}
+.b3{
+    background: #b11313;
+}
+.b4{
+    background: #114c91;
+}
+.b5{
+    background: #000000;
+}
+
+/* =================================================== */
+/* SOUS-BLOCK */
+     .c1-1{
+        margin-left: 5%;
+    }
+.c2{
+    font-weight: bold;
+}
+.c3{
+    padding-top: 40%;
+    font-size: 80px;
+}
+.c3 , .c4{
+    margin-left: 15%;
+}
+.c4{
+    font-weight: bold;
+}
+.c6>div{
+    border-radius: 50%;
+    background: #b11313;
+    margin-left: 20px;
+    padding: 10px;
+}
+.c7{
+    margin-left: 35%;
+}
+
+/* =================================================== */
+/* BOUTTON */
+button.btn1{
+    background: #114c91;
+    text-align: center;
+    border-radius: 25px;
+    color: #ffff;
+    padding: 10px 10px;
+    cursor: pointer;
+    width: 20%;
+    border: solid 1px #ffffff;
+}
+button.btn2{
+    text-align: center;
+    background: #b11313;
+    color: #ffffff;
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 2%;
+    width: 40%;
+    margin: 5%;
+    margin-left: 35%;
+}
+
+/* =================================================== */
+.img1{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) translateX(-55px);
+}
+/* =================================================== */
+/* COLOR-BLANC */
+.c1, .c2, .c3, .c4, .c5  {
+    color: #ffffff;
+}
+
+.fontToile{
+    font-family: "fontToile";
+    color: #ffffff;
+}
+.input1{
+    background: #b11313;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 5%;
+}
+.input2{
+    background: #b11313;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 5%;
+    padding-bottom: 20%;
+}
+.input1::placeholder, .input2::placeholder{
+    color: #ffffff;
+}
+/* =================================================== */
