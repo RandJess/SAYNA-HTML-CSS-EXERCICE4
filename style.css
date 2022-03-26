@@ -17,6 +17,7 @@ header{
 }
 header a{
     text-decoration: none;
+    padding-top: 10px;
 }
 
 /* =================================================== */
@@ -32,6 +33,15 @@ header a{
 }
 .b5{
     background: #000000;
+}
+/* PAGE-BONUS */
+.b6{
+    background-image: url("Assets/Illustration/img35.png");
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    padding-top: 60%;
+    padding-left: 5%;
 }
 
 /* =================================================== */
@@ -116,5 +126,13 @@ button.btn2{
 }
 .input1::placeholder, .input2::placeholder{
     color: #ffffff;
+}
+.form1{
+    border: solid 1px;
+    background: #b11313;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
 }
 /* =================================================== */

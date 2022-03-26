@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "fontToile";
+    src: url('Assets/Far-From\ Homecoming.otf');
+}
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
+/* ============================================ */
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff ;
+}
+
+/* ============================================ */
+header{
+    background-color: #b11313;
+}
+header a{
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+/* ============================================ */
+/* SOUS-BLOCK */
+         .c1-1{
+        margin-left: 5%;
+    }
+.c1, .c2{
+    color: #ffffff;
+}
+.c2{
+    font-weight: bold;
+}
+.block2>div>div{
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+/* ============================================ */
+/* Font-Toile */
+.fontToile{
+    font-family: "fontToile";
+}
+
+/* ============================================ */
+/* BOCK */
+.block1{
+    background-image: url("Assets/Illustration/img7.png");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    font-weight: bold;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+.block2{
+    padding: 10%;
+    color: rgb(0, 0, 0);
+    background-color: #f1c530;
+}
+.block5{
+    background-color: rgb(0, 0, 0);
+}
+
+/* ============================================ */
+/* Sous-block */
+.sousBlock1>div{
+    border-radius: 50%;
+    background: #f1c530;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* ============================================ */
+/* BORDER */
+.borderB{
+    border: solid 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: none;
+}
+
+/* ============================================ */
+/* CARD */
+.cardC{
+        text-align: center;
+}
+/* ============================================ */
+/* langue */
+.form1{
+    border: solid 1px;
+    background: #f1c530;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+/* ================================================== */
+.sousBlock2>div{
+    border-radius: 50%;
+    background: #f1c530;
+    margin-left: 20px;
+    padding: 10px;
+}
+.sousBlock3{
+    margin-left: 35%;
+}
