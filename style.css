@@ -135,4 +135,14 @@ button.btn2{
     border: none;
     padding: 5px;
 }
-/* =================================================== */
+/* ++++++++++++++++++++++++++++++++HEROS+++++++++++++++++++ */
+.block2{
+    color: #000000;
+    background-color: #b11313;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.block2>div>div{
+    margin-left: 15px;
+}
