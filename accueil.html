@@ -37,18 +37,20 @@
 
  <!-- ==========================================    -->
     <div class="block1">
-        <h1 class="fontToile">SPIDERMAN</h1>
-        <div>
-            <a href="heros.html">
-                <button>Voir les Héros</button>
-            </a>
+        <h1 class="fontToile" style="font-size: 5em;">SPIDERMAN</h1>
+        <div class="row pt-5">
+            <div class="col-3 py-2">
+                <a href="heros.html">
+                    <button type="button" class="boutton1">Voir les Héros</button>
+                </a>
+            </div>
+            <div class="col-3 py-2 px-5">
+                <a href="adversaires.html">
+                    <button type="button" class="boutton2">Voir les adversaires</button>
+                </a>
+            </div>
         </div>
-        <div>
-            <a href="adversaires.html">
-                <button>Voir les adversaires</button>
-            </a>
-        </div>
-        <p>L'araignée sympa du quartier !</p>
+        <p class="pt-5">L'araignée sympa du quartier !</p>
     </div>
 
  <!-- ==========================================    -->
@@ -58,37 +60,113 @@
             Spiderman a pu bénéficier de roboot qui ont permis d'adaptert ses histoires<br>
             pour chaque générations !
         </p>
-        <div class="row">
+        <div class="row px-5">
             <div class="col">
-                <img src="Assets/Illustration/img3.png">
-                <p>
-                    Trois films Spiderman sont sortis en 2002, 2004 et 2007. Ils sont produits par Colu,bia Pictures et Spiderman est incarné par Tobey Maguire. Un quatrième était prévu mais sera finalement annulé suite à des désaccords entre Sam Raimi (le réalisateur) et Sony.
+                <img src="Assets/Illustration/img3.png" class="w-100">
+                <p class="paragraphe1 pt-5">
+                    Trois films Spiderman sont sortis en 2002, 2004 et 2007. Ils sont produits par Colu,bia Pictures et Spiderman est incarné par Tobey Maguire. Un quatrième était prévu mais sera finalement annulé suite à des désaccords entre Sam Raimi (le réalisateur) et Sony. <br>
+                    Cette première trilogie a connu un grand succès auprès des fans et du grand public. L'épisode 3 reste à ce jour un des films les plus chers de l'histoire du cinéma. 
                 </p>
-                <button class="btn">
-                    <a href="adversaires.html">Voir les adversaires</a>
-                </button>
             </div>
             <div class="col">
-                <img src="Assets/Illustration/img2.png">
-                <p>
-                    Cette prémière trilogie a connu un grand succès auprès des fans et du grand public.L'épisode 3 reste à ce jour un des films les plus chers de l'histoire du cinéma.
+                <img src="Assets/Illustration/img2.png" class="w-100">
+                <p class="paragraphe1 pt-5">
+                    The Amazing Spiderman est sorti en 2012,
+                    c'est Andrew Garfield qui incarne le héro et
+                    Marc Webb à la réalisation. Un deuxième
+                    volet, The Amazing Spider-Man : Le destin
+                    d'un héros, est sorti en 2014 et a reçu des
+                    critiques très mitigées. Un troisième et
+                    quatrième film étaient prévus pour 2016 et
+                    2018. Finalement, Marvel et Sony trouvent
+                    un accord pour introduire Spiderman dans
+                    l'Univers cinématographique Marvel et
+                    abandonne ainsi The Amazing Spider-Man.
                 </p>
-                <button class="btn">
-                    <a href="adversaires.html">Voir les adversaires</a>
-                </button>
             </div>
             <div class="col">
-                <img src="Assets/Illustration/img4.png">
-                <p>
-                    The Amazing Spiderman est sorti en 2012, c'est Andrew Garfield aui incarne le héro et Marc Webb à la réalisation. Un deuxième volet, The Amazing Spider-Man : Le destin d'un héros, est sorti en 2014 et a reçu des critiques très mitigées. Un troisième et quatrième film était prévus pour 2016 et 2018. Finalement, Marvel et Sony trouvent un accord pour introduire Spiderman dans l'Univers cinématolographique Marvel et abandonne ainsi The Amazing Spider-Man.
+                <img src="Assets/Illustration/img4.png" class="w-100">
+                <p class="paragraphe1 pt-5">
+                    Spiderman, désormais incarné par Tom
+                    Holland, apparaît pour la première fois
+                    dans l'univers Marvel avec Captain America
+                    : Civil War, sorti en 2016. Par la suite, une
+                    trilogie de films lui est consacrée :
+                    • Spiderman: Homecoming (2017)
+                    · Spiderman: Far From Home (2019)
+                    . Spiderman: No Way Home (2021)
+                    Le héro est également présent dans
+                    Avengers Infinity War et Avengers End
+                    Game, combattant au côté des Avengers.
                 </p>
-                <button class="btn">
-                    <a href="adversaires.html">Voir les adversaires</a>
-                </button>
+            </div>
+        </div>
+        <div class="row ml-5">
+            <div class="col">
+                <a href="adversaires.html" class="pt-5">
+                    <button class="boutton3">Voir les adversaires</button>
+                </a>
+            </div>
+            <div class="col">
+                <a href="adversaires.html" class="pt-5">
+                    <button class="boutton3">Voir les adversaires</button>
+                </a>
+            </div>
+            <div class="col">
+                <a href="adversaires.html" class="pt-5">
+                    <button class="boutton3">Voir les adversaires</button>
+                </a>
             </div>
         </div>
     </div>
+
  <!-- ==========================================    -->
+ <div class="container-fluid block3 ">
+     <div class="row clearfix">
+         <div class="col-6">
+            <img src="Assets/Illustration/img5.png" alt="spiderman">
+        </div>
+        <div class="col-6 float-right pt-5">
+            <h3 class="fontToile ms-5">
+                DEVIENS SPIDERMAN !
+            </h3>
+            <p>Rempli le formulaire ci dessous afin de recevoir ton propre costume.</p>
+            <form action="" class="form2">
+                <input type="fname" placeholder="Nom" class="form-control">
+                <input type="sname" placeholder="Prénom" class="form-control">
+                <input type="text" placeholder="Taille (cm)" class="form-control">
+                <input type="text" placeholder="Poids (kg)" class="form-control">
+                <input type="mail" placeholder="Adresse email" class="form-control">
+            </form>
+            <button class="boutton4">Envoyer</button>
+        </div>
+    </div>
+ </div>
+
+  <!-- ==========================================    -->
+  <div class="block4 row clearfix">
+      <div class="col-6 float-left p-5">
+        <h2 class="fontToile">INSCRIT TOI À LA NEWSLETTER !</h2>
+        <p>
+            L'univers de l'araignée justiciere te passionne ? Reste au courant des dernières<br>
+            actualités grâce à notre newsletter !
+        </p>
+        <form action="">
+            <input type="text" class="form-control input3" placeholder="Nom Prénom">
+            <input type="text" class="form-control input3" placeholder="Adresse email">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label for="form-check-label">
+                    Je reconnais accepter la <a href="politique.html" class="text-white">politique de confidentialité</a> de Sayna X Marvel.
+                </label>
+            </div>
+            <button class="boutton3">S'inscricre à la newsletter</button>
+        </form>
+      </div>
+      <div class="col-6">
+          <img src="Assets/Illustration/img6.png" style="transform: translateX(-10%); width: 800px;">
+      </div>
+  </div>
  <!-- ==========================================    -->
  <footer class="b5 p-5">
     <div class=" py-4 d-flex justify-content-evenly">
