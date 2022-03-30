@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "fontToile";
+    src: url('Assets/Far-From\ Homecoming.otf');
+}
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+/* =================fontToile============ */
+.fontToile{
+    font-family: "fontToile";
+}
+/* =================header============ */
+header{
+    background-color: #114c91;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.c1-1{
+    margin-left: 5%;
+}
+.c2{
+    font-weight: bold;
+}
+.block1{
+    background-image: url("Assets/Illustration/img19.png");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    padding-top: 15em;
+    padding-left: 5em;
+    line-height: 5em;
+}
+.block1>h1{
+    font-size: 5em;
+}
+.block2, .block4, .block5{
+    background-color: #114c91;
+}
+.block3{
+    background-image: url("Assets/Illustration/img20.png");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    padding-top: 5em;
+    padding-left: 5em;
+    width: 100%;
+}
+.block6{
+    background-color: #b11313;
+}
+
+/* =================image============ */
+.img1{
+    position: absolute;
+    z-index: 1;
+}
+.img2{
+    position: relative;
+    z-index: 2;
+    margin-left: 15em;
+    margin-top: 10em;
+}
+.img3{
+    margin-left: 5em;
+}
+.img4{
+    margin-left: 10em;
+}
+.img5{
+    height: 30vh;
+}
+/* =================paragraphe============ */
+.paragraphe1{
+    font-size: 1em;
+}
+/* =================footer============ */
+.b5{
+    background: #000000;
+}
+.form1{
+    border: solid 1px;
+    background: #114d91bd;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+.c6>div{
+    border-radius: 50%;
+    background: #114c91;
+    margin-left: 20px;
+    padding: 10px;
+}
+.c7{
+    margin-left: 35%;
+}
+/* =================heros============ */
+/* =================heros============ */
