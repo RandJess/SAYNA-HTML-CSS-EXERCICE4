@@ -11,13 +11,17 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
-/* =================heros============ */
-header{
+/* =================header============ */
+nav{
     background-color: #b11313;
 }
-header a{
+nav a{
     text-decoration: none;
     padding-top: 10px;
+}
+ul>li.nav-item{
+    display: flex;
+    padding-left: 5em;
 }
 
 /* =================================================== */
@@ -71,7 +75,14 @@ header a{
 .c7{
     margin-left: 35%;
 }
-
+/* =================================================== */
+/* LIEN */
+.a1{
+    text-decoration: none;
+    color: #b11313;
+    /* background-color: #ffffff; */
+    padding: 1em;
+}
 /* =================================================== */
 /* BOUTTON */
 button.btn1{
@@ -205,7 +216,7 @@ button.boutton4{
     margin-left: 11em;
     margin-top: 5em;
  }
- 
+
 
  /* +++++++++++++boutton+++++++++++++++++ */
 .paragraphe1{

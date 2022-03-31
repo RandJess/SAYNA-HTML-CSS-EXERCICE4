@@ -13,13 +13,17 @@ body{
     color: #ffffff ;
 }
 
-/* ============================================ */
-header{
-    background-color: #b11313;
+/* =================header============ */
+nav{
+    background-color: #f1c530;
 }
-header a{
+nav a{
     text-decoration: none;
     padding-top: 10px;
+}
+ul>li.nav-item{
+    display: flex;
+    padding-left: 5em;
 }
 
 /* ============================================ */
@@ -76,7 +80,7 @@ header a{
 /* ============================================ */
 /* BORDER */
 .borderB{
-    border: solid 5px;
+    border: solid 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top: none;
@@ -85,7 +89,7 @@ header a{
 /* ============================================ */
 /* CARD */
 .cardC{
-        text-align: center;
+        text-align: justify;
 }
 /* ============================================ */
 /* langue */

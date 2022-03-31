@@ -16,19 +16,34 @@ body{
     font-family: "fontToile";
 }
 /* =================header============ */
-header{
+nav{
     background-color: #114c91;
 }
-header a{
+nav a{
     text-decoration: none;
+    padding-top: 10px;
     color: #ffffff;
 }
+ul>li.nav-item{
+    display: flex;
+    padding-left: 5em;
+}
+
+/* =================sous-block============ */
 .c1-1{
     margin-left: 5%;
 }
 .c2{
     font-weight: bold;
 }
+.c3{
+    margin-left: 40em;
+    margin-right: 5em;
+    background-color: #114d918a;
+    position: relative;
+    width: 40%;
+}
+/* =================block============ */
 .block1{
     background-image: url("Assets/Illustration/img19.png");
     background-position: center;
@@ -62,13 +77,6 @@ header a{
     background-size: cover;
     background-position: center;
     width: 150vh;
-}
-.lol{
-    margin-left: 40em;
-    margin-right: 5em;
-    background-color: #114d918a;
-    position: relative;
-    width: 40%;
 }
 
 /* =================image============ */
