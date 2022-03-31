@@ -57,6 +57,20 @@ header a{
     background-color: #b11313;
 }
 
+.block7{
+    background-image: url("Assets/Illustration/img33.png");
+    background-size: cover;
+    background-position: center;
+    width: 150vh;
+}
+.lol{
+    margin-left: 40em;
+    margin-right: 5em;
+    background-color: #114d918a;
+    position: relative;
+    width: 40%;
+}
+
 /* =================image============ */
 .img1{
     position: absolute;
@@ -103,4 +117,5 @@ header a{
     margin-left: 35%;
 }
 /* =================heros============ */
+
 /* =================heros============ */
